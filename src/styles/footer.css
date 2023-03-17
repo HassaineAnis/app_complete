@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer_btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #8186A0;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.header .header_menu .header_menu_link {
+  color: #8186a0;
+}
+.header .header_menu .header_menu_link:hover {
+  color: #5843e4;
+}
+.header .header_menu .header_menu_btn {
+  background-color: #5843e4;
+  border-radius: 29px;
+  padding: 5px 15px;
+}/*# sourceMappingURL=header.css.map */

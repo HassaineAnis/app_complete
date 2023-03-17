@@ -1,0 +1,89 @@
+.detail {
+  width: 95%;
+  background-color: #f9f9fc;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 60px;
+}
+.detail .detail_photo {
+  border-radius: 50%;
+}
+.detail .detail_information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.detail .detail_information .detail_localisation {
+  display: flex;
+  align-items: baseline;
+  gap: 60px;
+}
+.detail .detail_information .detail_localisation span {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #8186a0;
+}
+.detail .detail_information .detail_localisation h2 {
+  margin: 0;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #2f2e41;
+}
+.detail .detail_information h3 {
+  margin: 0;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #2f2e41;
+}
+.detail .detail_information .detail_information_react {
+  display: flex;
+  gap: 10px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #2f2e41;
+}
+.detail .detail_information .detail_information_react span {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 14px;
+}
+.detail .detail_information .detail_infromation_disponibilite {
+  display: flex;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #2f2e41;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.detail .detail_information .detail_information_prix {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #2f2e41;
+}/*# sourceMappingURL=detail.css.map */

@@ -1,0 +1,22 @@
+.erreur {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: -50px;
+  background: #F9F9FC;
+}
+.erreur h2 {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  text-align: center;
+  color: #2f2e41;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=erreur.css.map */

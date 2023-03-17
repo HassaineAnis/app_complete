@@ -1,0 +1,67 @@
+.questionnaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #2f2e41;
+}
+.questionnaire h2 {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  text-decoration: underline;
+}
+.questionnaire p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+.questionnaire .questionnaire_reponse {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.questionnaire .questionnaire_reponse button {
+  width: 250px;
+  padding: 20px 0px;
+  background-color: #f9f9fc;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #2f2e41;
+}
+.questionnaire .questionnaire_reponse button:hover {
+  border: 2px solid #5843e4;
+}
+.questionnaire .questionnaire_navigation {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.questionnaire .questionnaire_navigation a {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #2f2e41;
+}
+.questionnaire .questionnaire_navigation a:hover {
+  color: #5843e4;
+}/*# sourceMappingURL=survey.css.map */

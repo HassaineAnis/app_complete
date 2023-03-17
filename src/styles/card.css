@@ -1,0 +1,40 @@
+.card {
+  background-color: #F9F9FC;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px transparent;
+  cursor: pointer;
+  height: 240px;
+  justify-content: space-between;
+  padding: 20px;
+  transform: scale(1);
+  transition: transform 300ms ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px #E2E3E9;
+}
+.card .card_label {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  color: #5843e4;
+}
+.card .card_photo {
+  border-radius: 50%;
+  align-self: center;
+  border: 2px solid transparent;
+}
+.card .card_titre {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}/*# sourceMappingURL=card.css.map */

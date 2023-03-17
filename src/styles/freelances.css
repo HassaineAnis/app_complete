@@ -1,0 +1,35 @@
+.freelance {
+  position: relative;
+  top: -50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.freelance .freelance_entete {
+  text-align: center;
+}
+.freelance .freelance_entete h2 {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 132.5%;
+  /* or 40px */
+  color: #2f2e41;
+}
+.freelance .freelance_entete p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132.5%;
+  /* identical to box height, or 27px */
+  color: #8186a0;
+}
+.freelance .freelance_card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 20px;
+}/*# sourceMappingURL=freelances.css.map */
